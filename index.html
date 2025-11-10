@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mantronix Solutions: Innovating Robotics & Automating the Future. Experts in welding, polishing, vision systems, machine tools, and punching press with Borunte robots. Authorized ZFENG Distributor.">
+    <meta name="keywords" content="robotics, automation, welding, Borunte, ZFENG, industrial robots">
+    <title>Mantronix Solutions - Innovating Robotics & Automating the Future</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --navy: #001F3F; --gold: #D4AF37; }
+        body { font-family: 'Arial', sans-serif; color: #333; scroll-behavior: smooth; }
+        .navbar { background: var(--navy); position: fixed; top: 0; width: 100%; z-index: 1000; }
+        .navbar-brand img { height: 40px; } /* Add your logo here */
+        .hero { background: linear-gradient(rgba(0,31,63,0.8), rgba(0,31,63,0.8)), url('banner-placeholder.jpg'); /* Replace with banner image URL */ background-size: cover; color: white; padding: 120px 0 80px; text-align: center; }
+        .section { padding: 80px 0; }
+        .service-card, .product-card { border: none; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .service-card:hover, .product-card:hover { transform: translateY(-10px); }
+        .btn-primary { background: var(--gold); border: none; }
+        .btn-primary:hover { background: #b8962e; }
+        footer { background: var(--navy); color: white; padding: 20px 0; }
+        .certificate-img { max-width: 100%; height: auto; border: 2px solid var(--gold); }
+        .accordion-button { background: var(--gold); color: var(--navy); }
+        .accordion-button:not(.collapsed) { background: #b8962e; color: white; }
+        #map { height: 300px; }
+    
+        .service-card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card img {
+                height: 200px;
+                width: 100%;
+                object-fit: contain;  /* Show full image */
+                background-color: #f8f9fa; /* optional: neutral background behind image */
+                border-top-left-radius: 0.5rem;
+                border-top-right-radius: 0.5rem;
+                }
+
+        .service-card .card-body {
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"> Mantronix Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#partnerships">Partnerships</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (#home) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="display-4">Innovating Robotics & Automating the Future</h1>
+            <p class="lead">Mantronix Solutions specializes in advanced automation using Borunte robots for welding, polishing, and more. Proud authorized distributor of ZFENG energy-efficient solutions.</p>
+            <a href="#services" class="btn btn-primary btn-lg me-3">Explore Services</a>
+            <a href="#products" class="btn btn-outline-light btn-lg">Download Catalog</a>
+        </div>
+    </section>
+
+    <!-- About Us (#about) -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">About Us</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Our Story</h3>
+                    <p>Founded in Ghaziabad, UP, Mantronix Solutions is dedicated to innovating robotics and automation. Our mission: Deliver cutting-edge solutions for efficient manufacturing.</p>
+                    <h3>Our Team</h3>
+                    <img src="WhatsApp Image 2025-10-26 at 2.34.07 PM.jpeg" alt="Manan Singhal Business Card" class="img-fluid certificate-img mb-3"> <!-- Uploaded business card -->
+                    <p><strong>Manan Singhal</strong><br>Automation & Robotics Integrator | Robotic Welding Expert<br>Email: manansinghal@mantronixsolutions.com<br>Phone: +91 8178075592<br>Address: A-88, Chander Nagar, Ghaziabad UP</p>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Our Expertise</h3>
+                    <p>With years of experience in integrating Borunte robots and ZFENG products, we ensure seamless automation for industries like manufacturing, mining, and metallurgy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services (#services) -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row mb-4">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <img src="https://www.borunte.net/uploads/33708/products/p202412171014195c489.jpg" class="card-img-top" alt="Robotic Welding"> <!-- From Drive: https://share.google/UDy1l4NZrLErf4W7J -->
+                        <div class="card-body">
+                            <h5>Robotic Welding</h5>
+                            <p>Precision welding with Borunte robots and visual tracking for high-quality seams.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnCLB9Y_34r3BusYH5yaPmdhT5_ihpLYapQg&s" class="card-img-top" alt="Polishing">
+                        <div class="card-body">
+                            <h5>Polishing & Deburring</h5>
+                            <p>Automated grinding and finishing using flexible robotic arms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <img src="https://image.made-in-china.com/202f0j00cSQqEOBYbmru/Borunte-3kg-Payload-Vision-Guided-Sorting-Assembly-Solution-High-Performance-Delta-Robot.webp" class="card-img-top" alt="Vision Systems">
+                        <div class="card-body">
+                            <h5>Vision Systems</h5>
+                            <p>AI-powered visual recognition for sorting, tracking, and quality control.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUibplTnRBOSQQfCuhxQ8LmSJhDleBQ0XBKQ&s" class="card-img-top" alt="Machine Tools">
+                        <div class="card-body">
+                            <h5>Machine Tools Integration</h5>
+                            <p>Seamless loading/unloading with collaborative robots.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5u-dCZvyPiqFhbqmmSdXejGDxloax6eB3ZA&s" class="card-img-top" alt="Punching Press">
+                        <div class="card-body">
+                            <h5>Punching Press Automation</h5>
+                            <p>High-speed stamping for metal sheets using specialized Borunte robots.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-center mb-4">Detailed Service Descriptions</h3>
+            <div class="accordion" id="servicesAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#welding">Robotic Welding</button></h2>
+                    <div id="welding" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Using Borunte 6-axis robots with visual tracking for precise arc welding. Benefits: Reduced defects by 40%, increased speed.</p>
+                            <video src="./welding_video.mp4" controls class="img-fluid mb-3" style="max-height: 300px;"></video> <!-- From Drive -->
+                            <h6>Case Study</h6>
+                            <p>Client X: Automated welding line, saving 30% labor costs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#polishing">Polishing & Deburring</button></h2>
+                    <div id="polishing" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Automated grinding and finishing using flexible Borunte robotic arms. Ideal for metal and plastic components.</p>
+                           <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhMVFRUXFxcVFRYYFhcVFhYXFxUXFhUWFxUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGBAQGi0eHR0tLSsrKy0tLS0tLS0tLS0tLS0rKy0tLS0tLSstLS0rLS0rLSsrLS0rLS0tLS0tKy0rLf/AABEIAMcA/QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAIHAQj/xABCEAACAQIDBQUEBwcCBgMAAAABAgMAEQQSIQUGMUFREyJhcYEykaGxBxQjQlJywTNigpLR4fAVFkNTc6KzwiSy8f/EABsBAAIDAQEBAAAAAAAAAAAAAAABAgMEBQYH/8QAKREAAgIBBAEDAwUBAAAAAAAAAAECEQMEEiExQQUTUSIyYUJxkcHwFP/aAAwDAQACEQMRAD8AYbjYkYaVWVb5lykXOtxcaknmPjVg34xZxGGIKKpQhx3rnTQj3E+6qZhUZQpvrYEcPAj9KsxYMuvBh8CKjJ8io5TvQhAjlHFHt6Nw/wC4L76leMSIy8mFx5MLj50btXDZkkiIBIzCx5sp04eIFK93maVECgs2qZQCSbd4aDwPwpoVAOxcO8p+rqC0jHKqjiWBsAKf7X3G2k0YP1OYsvEDKT7gda83Xw5j2vhdCM0yG3DUGzae6voaJHE7lw2TumNhJ3QMlmDR3HME3sePK1MdHyvsjc3aGJTtcPhZXS5AbRRdTY2zEXsQRpzBorD7l7TmeRVwsrPGQsgYqGUsMy+2wuCNbi4rvW3o8Vi8Cn+j4qKNxM2ZwRlZVaRXUHK1jnIPDl40b9Z7P64zNmkiwsXbFCAe0WOZmt0axBHmKAo+eMRuLtJHjjbByhpCRGLoQxVS5GYNYHKrGxI4GhIN2MY00uHXDuZoVzSxgpdFsDcnNY6MOBPGvo9NqxBMDJG7SQzzaTSPfIWhkCKc2oJbu25G446UrwW6s8G09o49zGYcRBlQBjnBCJfMpFh7B5nlQFHCMZuzjIZo8NLhnSaX9khy9/8AKwOXz10060yi+j7ahFxgpCLke1FxBIPF+oNd9fH4TF41sHIAMRg3jnjue8QUVs6Hp3yrDxHUVXPo/wBt4iXau08PJKzRQueyQ2sl5Xvawv76Ao5H/sbaXadl9Tlz5Q9robKSQCWzZRcg6Xvoag2xuvjcIgkxOGeJCwQMxQgsQSB3WJ4KfdXY/oa27JihjRiJjJMs+mYjMIsoVLAWstw/relH0+QP2GFcLIIxI4a75lzsoyaZjrZZNfPrQFHINiuBio78GYxnylUx/wDvTLdvBh0lX74K+XMHTzNV6SUqwccVIYeam4+VWzZDhMdMo4PmYeTfaL8GFQyfbwbvTdv/AERUunwQTbs4sG31dD04a3GnPpQ/+kTqSrxFT05a10Q7YUKgKElcpuCOKjKNCOlA4/GLIwZQV0AIOutyf1rnwz5nKpLg7WP0ysjb6KcuxpvwfKik3ZlPNR5mrGjUQj1fuZ0Y+n4isLutL+JfjTXYWw3gkDllIsQQL8/7imyPREbaUtzJrR44u0ir4rZHayuAQtmJ4Xvc/wB6kO6zcnHupjwxDeI/Qf0pmjUkyyemhLloq/8AtmS/EEUem7Edu8Wv4Ef0p2GrV3p2Qjpsa8C3BbDiicOpa4va5FtQR08aUbdw4bEWPAhasmekG2mtOp8B8zSbLvailRIu7kP7/wDMP6Vuu7kH7/8AN/amSHQVuDSJexj+Bd/t+Do381eHYGH/AAt/MaZE1renY/Yh8AMePjRRmu2g0vbX09KeIGMCTfslcFlUE3KDQOb6gEg28BfmKpmxsD9axMUBNk9qVvwxqM0hv1sLeZFWzbe2BIxIsF4Ko4KgFkUeQAFb2j5yAxbTCtnR1NzwZQyvl0Is4s1q6Lgdl4QCOePCwxMyrIMsSoQXXXgB+Iiua7J260UgWMR3chdVj7wYgFSzDgfE8L6iup7OGdUdgRmVWCkEWzDNlseFr2tytUJGrTLmxZtbduHErbIVYapJGcskbcmRvumlS7opHHKMbi8Q65e4TO8dvzjPZh4nSrPj9puZBhcKA07aseKwJzd/HUWXx8gY8dumkaSNHiMQJ5QO0cvnEhF9WjcMoHeNlAFvSo7W12TzZYvtHGttbuJAhnwmJfKTf7OVsjm2see+kgPU6iq5sjbWIw04YO6Zj3lbPkYEFSWjuO0tmJ1q3PuodmyGVpiI72YZRlkQ8Y5ELWcEadeYsReq/jMbCxZRcx5jkVtSFucov+IC2oqxcIxvno2xG8c7KYwyhMxIyqEUtc2cIR3SeOuutLcXt3GEnNisTZhwM0oBB46ZrWq47kYCJy4XObjv5bOSoN9RcNlv+EHlcGjN8HRYyoVCBoAF1vyuGAI91Owo5p9clz9r2snaf8zO2fhb2734aca2gx8yMzpLKrN7TLI6s2t+8wN2161aMTu3EMGJSGWawcnN3bNKsaqUI007Rri3s1WJsEy+I8P6UhGsGIdGzo7I34lYq2vHvA3qfEbSmkGWSaWQXuA8ruL9bMSL6nWg6y9AGs9PMDiLT4WT8UcYJ8UzQn/xj30iloyKX7GJuccrr6HJIP8A3qMui7Ty2ZYy+GdBm4fCokNbl7rfqAfeKHU1jPet3yGI1ShqERqlDUEkwtWoiNqBDUVEaRJguLNp0PUW+YphGdKW7S0eNvH9RR6tpQS7RIzWqIteo2esvTJKJMKQ7wftEPh+tORSbeIaofP5ikyMkNoT3R5VveocKe4PKpb0E0YTWpNYa0tQNlb2JiuxilIPelIjJ5hAc7D1OX0FBYzHm51rMCV7B2J4SW966f8A1NWX6Pd2PrL/AFqdfsEP2asNJXHOx4ovxPka3yfJ83w4nN0PPo83TJCYvEqeTQxkWPIiRx8VHqeVXDbm13Rlw+HGfEy6IOPZqf8AiN052v0vy1g3h28MLGDbNK/diTqeGYgfdFx5mwptuhsX6rGcROc+Jm1kY6kX1EY8tL+XQCoLk1ZZLGtqGW7ew1wkVr55G70sh4ux46nW2pt6nnXu38dHBE887BY0F2PyAHMk6AVO20FsWYgAAkk6AAakk9LV8/fSbvs20JskZIw0ZPZj8Z4dqw+Q5DzqTZi7FO+O9MmPmMjdyNbiKO+iL1PVzzPoKrxrUtWXpWTSoO2PtN8NKssZ1U8OTDmp8xXZUx0eJjViFdHUMMwB0I+B5elcMBq97j7QPYFCfYc28mAPzzVXO+zp+nyi24SV2Pds7CEiZY5nUXUhG7y90MFF/aAGdtNRVH2ns2aH200/ENV944etX84m9DzS3qCyM25fT8c/t4KFsPZiYmdYnYoGvdwASLC40OhvSmfClSRxsSPjbhV9MAQs0J7MtlDZQMrBXDgMp/eUHSx040Hu5jP9PmkeaEYiKVDHJaxIDMGzZG0Oo4fGrFkRy8ugnDtcFFk4VNgzeGZenZyD0Yxt/wCQUw22YZJ5DAMsRf7PQghdOIOvWon2ZJh55IGyk5HQlTdbmMSrr6LU7sxSg4stuxps8EZ/dt7q2vrS7dSa8Fvwsfjr/SjpDrWSXZ7bTz34YS/BOrVKrUIrVMrUjQmFK1FwtpQKtRMDUE7I9r+yp6GiFfSh9paxnzFZhXugPgKRZF8Et62DVqTWgNBOw6LhSbeYaJ6/pTfCNfT3Ur3kHcXz/SgqkEbPP2YqcmhdkteMdaKKGgsTNTWwWthpWuagTYp3L3HMh7fF3EV7pFwMmujP0Xw4m/Icel4vHJBE0jaIi8FHQaKoFD4Ju4n5V+Qqg76bX+s4kYdDeKE94jg0nBj/AA6qP4q0t3I8lOMNPi/ILvXie0RNoJjR25yn6vbs3jXjaNs12ycyR16ijN0/pLxBdIcWe0UkKsgADqWNhmAFmFzx4+dNMJjC0fZyWkS1sjgSKAOQVwRQ+2Mfh8HCWjw8CynSMiNbg8S1uAtx4cauSo4cpOTtmn0nb3kg4KI6f8dhz6R+XM+g61zFnraaQsSxJJJJJPEk6k1EaiyaPSay9eVlAzarTulcI56sPgP71V4kJIA56VddnQ9mir0Hx51XPo6Ggjc7+BusteNJUANbXrOd9M1lNJdpbTEViRe5sBTPFNpVO2kxkmyjl3R58/8APCpxVmbVZnCPHbDZZIZdRdH8rH3cDWiRSNOllLEmNQFBYnKFXhx4LTjdzdcYqXsUKqEXNLMy5yByWNTpeul4PZMEOZMOEjksCzWXPlva5H3VNiLDSrejkTnGd2uSlbublYiGNu0dFYnux6k2Gl2caA6cBfzFC46Fkcqwsw4j41fxjoWLOkysqgqVWzWIDMTYC5OVT7jVe32wliktrXGVvMar8L+6q5K3Z1NBqKSxePBW1apkahqlQ1WdaMgxGoqBqBjNExmgsTJcXqjeVQYF7oPUfGpJWuCPA0Ls1+6R4/0pF0HwMK0rL1lBJGytbWh94GzRg+IqcUNtU3iI6EfOgjLozYp7gptmuPGkuxpLJR/bUAlwSsa0JqNpK87SgQ527tj6rg+0B75VUi/Oy6H0F29K5rswW8zxpjvbtH6xMkSn7OFQvgXIGc+lgvoagwiAVsiuTwuvz75bV0h9hJ7C5Ogqn7f2iZpCeQ0UeFMtr4vImUHU8fKqyxqTMUUeE15WGstSLDBWwX3VJhcPmZV4XIF/M17jgqm1iR1BsfiCDToLCNmOAwIFz4kAAfiueAGtzT+La0YZgSCFZlzqcytlNsy8yp4g2qtYaVAGCvZmXL3+7a5F9RccLjlxqSPDlQOHXQ3HvGlRcbLcOqnifBdMLi0f2GB8jr7qINUNhz9x/vR0G1XjUXdixIKqQGTIL5ixvmBvawHjVTxHTxeqR/Wiy4kaVT8GbSlz1PvJNqZxbyodJFK+I7w/rXnZwsGMZBvxAPD04ikk4l+TJjzU4vosn0Y7ZjSc4e5JmUEkjLlkAvkGuo8fKuh7ShDrLEqNneO2cEKoButi1tSLsbDr41wmGQwPnC/aBlZHzMMtjc2A0N/HpXd9i7VixqmNXMUzJ3VIC5rr3uza9swN9D0qzs5ErhwxHuVsaePtMROhWdkK9nmHfIYkMWuRwCi/iat6oQQSAQVyspAZdeI19RWGC2UEsMh4E2uQCO9zPGiY4+0FgbfvDW3l1pUUSk/BRt59ydDPgwSvF4OLJ1Mf4l/d49OlUqNa752WXVW1Hh/eqJtrdZHmaS75nYFrAWXqctteV71GUDr6P1PatuX+SkRLU4FG7c2YuGdVWTPcG+lip0sDqf8ABQQNVUd3HlU0pLpnhoTZ5tmHjRpNAYbR3H+caizZjYwVq3zV4guK9yUFlmB6G2gfs2qcrUGMX7NvKgUugfZJ7p86PJpZsI8fOmjLSFB8EbGtCa3YVoRTGyiRTFWPn+tN8LiQbAe0Ta3yIPSgtv7HfCmNjJG4lBZcjXZbW0deXtfA9Ki2NPaVc3U/EED42re+z5uR7RmLMaDapXFaNUSSI6ljXmeFeRRljYca2xlh3SQLH39TYa0xtk+zWLTL4ZiPCyk0NimzZvzH5042BgTnDhZLWa7FcqaggcR+tEpuvck5goP3dWIHS96bIeSnk16jldQbVb8VuzHGAdH11vm09zil8275ZvswpXiSC4Kj8pLX9CaVjFUe0XHGx+dSri1Y2YNwCgDlbpTaHdtRxzP5nKvuGvxplBsoJwsvgot8eJpWS2laxGBINtQejC3x4VDGhU3IBtra+h9RV5hwyDkKJTZkLg3jS/Hhb5Udh0c+TEsLAm/nVv3ZxnaxZQx7SM3sONixIK2100qPaWxUEcqxJ3mXTUk6EMACeHCkmAwHZG4mu/AiM9weDSfePgo9aNoSm32dv3c3rE2WDG3z6KktrZ+QSQdeh58/G2q6iyqDa3EDT38K+c8DvBilYKWuEJLG5BYXFvkbWHOrhsTera0is0SiVFOWzFF/hBcd4jS+opUFMuO2di4zESSZ8YI8P91Iyy2H7/C5t1P9KrW8G+MeERcJhWLsoy52NzqeJblx8+lhrSPezf7FyZsM0f1cqRnGYM17X0KjLbUHn51Rzrr60mi3FKMWrLn27NqzFjzJqQSUkw20rKucEaceVNUNZpKj1unyQnFbWEh6hSNjKcoJ01sCeXO1bWqRdqmGwJIB1GlxUTbGW0IgOlTgVum0YZNbBh1BFx51v2Kn2Gt4GiiSkpEdqHxq9xvI/Ki2gccr+R/SoJlupFiNDx8qAEmw/vedNrUp2J7RFWDsaBxdIFNeBrUUcPWjYWgNyOYYuIoxBUA36ddQaH7SrdicEHGv+etI8ZsVhquvhWvfyeLzaCUVceUCLLm862JocIymzKR5girDszZEEi3nkkjJ9kAKBaykMxbWxBOgHMVIwdBO5+zlkYvJcKLqvQsfHlYH3kVc4N3oI2LBFueeUX95pHgMRF2kcEanJcKlr2YXvz1udet7mrpiYivj40mAq2hCOzYKNbG1LIirKGHTXz4H408aO9KX2a+cmG9zxW2ZfM9PeKfYgTEQZlIHyvw1GlCYQZTfwt76sMez8QPagBHPLIt/cf60JLgHiGsVhrYs49B3VIvSoLBBJWOKFlYg2uB7z/SsjJPtNfw4D4a/GnRKyeOMk2UXPh/mlExkLxa5/Ctvi/D3XoVpTa3LoNB7udaK9O0RZNtOS6kDRbWI6g6G550qgwN7ADQaDwA4Cj8Q/dseHOj91N3jIHYM6ah1LHtEKk95SLg8NV8/QqwSFLbFk4qpPUgVtFtSfCgkMwABJU6qefsn9KvZ2fJFcwsCejAa/p8qrmJ2W87lZhkFiSepuO6PjSZbBW9pzfa21nxMzTPYM1tFGgAAAA66CjtmYa6lyrOFtewsBfhc+hqw4ncLvkx4hVHINGbjwuDrTDBbvQwxsuK2g4jOrxxt2ayW4Bhc5uJoU0Xy0WVcyVL9yo4aOXESCONLlhp+FFP3yeQFXmbZZsqxjNkAUnQE2AF7czpVq3e3YzxKYIuwgJUjQdrIpNs9mI0sb5mN+gNPcXuImW8MhU8r6j1N7/Oq5QlLk3aTU4dN9N232/By0xEGzAg9CLGgNpQ3Kg8L2roOP2TiYrrLCJUHMWcD3ag+gqk7woFIKqVGbQG+mnjrVUotHcw54ZFw7FTbKYao36GtVxs8XG5HiL/GnmGUFdajmQedRontW76XTIsDvDbRrr4+0P601TaKygC4Pz104UPs3Ysc1yApcahL5cw62GpHlRx2KitnUGNrEEcVOvIcuFS22UPWRxz2SK1s05ZD/nOrCmJ60ti2RMJSezOU3Ob7tr824D1o6FMxtFZrcZDcRr5EaufAaeNJRZfPV4YRu7DUQlcwBt1tp768tUMeeENaSR2bixPdHQInsoPIXoPtWHM0mqIafJLKm2qXgT30qTDwFu9xAOoGrW65elCvJpTn6PYUnxLLJe6o0iAG17EIwbro4q2vqZzNblcMPHkVY5443RC37VRk0YhruQO9awIK/wCXpvtHcudlC6CQWAN7iwPBraet6db0bwYXZrrGsB7Rlzi3dQBiQT2jXIuV1Ciq1/q21sd+wjMMZ4MoyC3/AFpNT/CKto87Yww2xvq5jnxs0KdnIronaFfZ5ZyBcXAOUA8LXtV/3XxmGxySHDHOqN2bNlYalb6Bhe1jxtyrmSbjxxHtdo4xQTxAa7Hw7SS7N6LVv2NvBhY07PCqVTQMVGTNbgST3m4njTEO9l4WNXMc0R7QZiMxurBSAbL6jje9E48C1gBYcBwA9KFXEobPoSL5TzF+NqHxWMuNKQwPEzEHSl8+JvcHUcwaJmkvQbxg0CK1tvClDnHscL9NdL++hIpauseGBBDag6EeFVnbOxjCc6ap05r/AGoGCZ60kZ+EalnPAAX8yegHU1PgcPmGZiFXx525C1N9jYZpXyxquU6EEXBHM34jzpkotJ2wDd/dqWeQGYhgNcgN1FubW7tvAXrp2GwwjUKv/wCnrUmz8EsKZV4/ePU/0qYkXoJTm5O2A4gZdaU47Er961PcfEHUgGx61Udo7KcG5uw686ixxpi7FYSOQ9zESxXP3izJ42Ym6+unjVo3c3PwcEiTyEzSEghpjdRfgU4r661U5E5V7gdoTQH7OQheaHvRnzQ6X8eNClRa8LkuGdslwcjKWXIshXQasoa3WwJUeXKpcBhWjjyySFyLkseOpJ48gL2HlVC2Bv0o7s14v3h3o/Ualas2AxCSFndkEZbMAjZklbTvO/PgBk04c6sUkzLLHKPYxwuzE7x11sFOYlsqqFBLE3N7E60h3i3SEii0aSAHNlJKEnXpoePherfFIGFxwrehpMcMkovhnGNsbKuGj7ApIwKqv7JddL5tVt5ClGKwJMcGVArmO7jN98MQQCTY/rXeZ8OjjK6hh0IuKQbZ3OhnChSUyaqtyyXuT7JPideV6rcDZh104SuzkGztmSSCVhlvCLv3rG+pAXx0PG1PMLipAAsv2jW7qWvJ/E3Ifmpg+x+xmZVhiS/tKEyuQpFmU5gDrqTrfwpru42Ek7V4yWKtrdSt2N+ZHDTrewpbaL8mvlOOxpP8+SqYyAIpOLcAObrh1JI05Hm3rp6VvmBtppyHIDlpRe9G7/ayLKAe6uXu8L5i1z/NSfJKnA5h0PGqpto6mh02OcFkfLGJFQvhlPKoE2kBo4Kn4UQsoOobSqze1KJzvFFkOVwVbowsdeGhqwbgKYcT9ZlBihSN7ySHskbPYKoLDvA+1p+EUBtPPNlknKySKoQMR3VQeyAthc+JvVZx/eI5hdFvyHh0rXtqTPKZdS8kEmdR3h+kfBX+ziGIdQQrBAFGt/2jjNa/4Qape1N/cZMTlcQr0jHet0Ltc+61VYLXq0zHQSJWZszEs3NmJYnzJ1NNtn4tl4GlEK3NWHZeyS1taQxtsrbbIbMbqfh41ZRNcA0DHsiO+YgXPIaCilUDQcqBEuetM9aKCxsLn9PEnkPE0PNOq8Wuei2P/dw916YB0c1uNQYrEqvtsB+6eJ/h4/pSrFY57XHcHC4vc/x8b+VqWyGlYG88yXsAVTl+vDz8avm6TokRJIJJ0Yc1sLD33rleMnI7oOmbN5G1j/ngKK2Ttt4m0OnNT7J8xyPiKaA7C+MB4VoshNJt39sxT2AOWT8B4+an7wqxKlySeJ1piI0jJogx3AB1sLcB+nGp48OdDbQ8PGpxHQOxDjt31lBIFiNSeHvqpbR2TJEdVJHUaiuluvhUTR9ReouJfjzNHKglGYDFyQnNG5U87cD5qdDV32ru1FJqtlbqvD1BqobQ2XJCe+NPxDhUKaNcZxmuSzbG3zI7kgycO8ovGfNPaX+HSrngdsB1DaFT95TmX1I4eoFccFEYTGSRHNE5VvA6HzHA+tSUyqelT5idwjkDC4NxW1c42PvidFmUqx+/ENCf3ojofMa1Yl3uhjlEM7BSRmR7HIwBsTr7Nm0PQ86sTsxzxyh2WJowSCQCRwJFyPLpVW3kxmWeNIlUktaW2hOawB8wNdeVH7a3hWNQISskjezlOYDxNuPgOdLtl7GZCZJTeQi9uNi2rEnm396TFE3gsCcwBHQ/p40uk3dje+VyDyzW92YcfhTDFIb6UGJivhUGkbcGScOYOiv7T3clTRkuOvEH3VX59lC+l18L10yDaOljoOnEH0Ole4jCwSnMya/uka/zA1W8aOpi9WyR4mrPnHH7dLXUKAOHUi3jpShsQTUcnE+Z+daVpfZ51PgnSbWmmHwXai6eopGKZ7C2gYZVJ9kmzeR5+nGojCPqrI2oq57vyCwvW+L2dGT33BP4Y7MfV/YHoW8qlwjiIfZDIfxcX8859n+G1RGPBEQLuQg5ZtCfJQMx8wLUNNiVHsgt4t3R6Kpv7z6UtMvM6k8SdSfM1o2JAosAjFTMwsTp+EWCjyUaCl0r1J2ua/KsWAHWkICeQ2sL2JuRyodgTxoyWPWtGSgBRtCPu36UpWSrDi47qRVWZrGpAM8LjihGp69CD1B5Gujbqb9DRMTd14doB31/Ov3h4jXzrk4epEnK6g2NMD6dwjpIoeJlZW4MpBB9RUpjN7GuDbrb4y4Z7q+W/tKdYn/MOR8Rbzrsu7m9MGMsv7OX/lseP/Tb7/lx8KYhosVemOiTAa2jtQIF7OojhgdGF1N76A/CmDrWgipE1Kir47dSN7mM5D7x7qrGP2PLCe+un4hqK6gY6yODMSpXQjwIPmKi4mmGoa7Od7r7DbEygahFsXbw5KPE1bv9ujtb4jJMqH/44ILOgsQS7txNja3Dn0s/hgiwyEIoUEk2HNjzoF8Rrc8aKpFWXJvZvhNnxpYqCMpLKL3CkixtfW3O1SYmYAcaWYraYUcare09uE6ClZBRHj41c9iRwNQzzI2h+FVzBozks+nQU3wuGvwpWaYLgJFuVTIvjapINnE8qIGDI5UyVo+U5OJ8z860reTifM/OtatfZhXR4K9FeWr0CogXrZWLJijJP3R8NP0otsWB40l2VH9kl/wg+/X9aYrUWSJe3Y+AomHD86GU1KsppCC1iqKV7aCopJzavIpRemBrzr1xRBWoZltQAFNVRx62dh41asS1qrW2BZweopoAQNWwaoL1he1MCUtTHZu12isD3lHK+o8VPKlOe9eg0Adz3N+krQJiCZY+Haf8VPzj74+Pia6jhZo5kEkTK6HgwNx5eB8K+QsNOyEMpII5/wCcavO6O+0kDgo/ZsbXB1ik8GHI/wCA0xUfQ5jrUAUn3Z3wgxdo2tHNzjY6N1yN97y4/OrCYgOAA5/1oEASJ0FzyFebIx6ssmcFHjNpFIsV5qbXOhHDU+tMI4udVbbGIXtZCn3soc345BYAeAufUmkMnx20M7X5ch0FKsbtEAcaAnxTMcsYLHnbgPM0ds/d1nIaTU+4DyFRZITSdpMe6Db/ADhXkWzyp7wN6vuF2WqURJh0IsQLeNLaSUioYbCkjhTTC4LKeFjTWbCxxKXdlRFFyzEAAeJNc83m+kG948HoOBmYan/pqRp+Y+6k6XZr02HJmdQRc9u7zQYNbMc8lriMWzfxfhHjXNNq704rEvnMhjH3UjYqoHpqx8TVf+sMxJYliTckm5J63OtaSYtV0szeWXT3sKpc3Lo7uLS6fSR3ZHb+X/RQ5OJ8z861raXifM/OtL1sfZ5NdGVLhYw7qhNgzKpPGwJAJt4DWoq8OlIZ03eHYv1WQBTmidc0LjUMmml+ouPeOtLFan+5O0F2jgmwMpAmj78DHkwHC/Q6+hPQVWpbqxVhZgSrDoQbEe+oNDCQ9ehqDE1emagQWXqJntwoZp6ieegBomKqQ4sHjSJsRW31igA7FEVXts8AehpiXvQOOXummgE1ya1y1NGGYhVBJPIf58aIEcae2e0b8CnuD80g9ryX+amAHFExuVHDUngB5k6CpYpF6XPw/vU2LYmwbS3BQAqrfoo+fE8yaXkUCCTJetlehlepVNAx9snbjR2Vrso4fiX8p/T5V2Lc76RjlVZiZY+AkH7RPBhxb11864EGovB454mzIxB+B8COYosR9ZYiUSwtNhnzBh9zXNyItya3rSPDbuSy6yns1/CD3j5kcPSuUbpb7vGwyN2bn2kOscnp1+PQ113YW+cWIFm+zk5qx0P5W5+XGigHWC2VFEAFUaUYRQn1wdahTaF2III6HXXW3G1vS96KEHEVhjFrm2nw0+GlAYnaccYzSOqAc2YKPjVJ3v3/AImglhwxLMy5TIO6oBIVst9SbE60Pgnjjuko/JT99N45MbO9mYwISIkHs5V07QgcSeNzwuKQLWmG2m8R7hABBVwRe620FaCcVn2OTtnflr4aaPtwXK/3JOwNR9jXglqQTCrVFI4ubPPNLdN2UaU94+Z+da3rKyrX2ULo9BrSRqyspAHbC2o2GmWVSRY6+Iq/b25ZUTGRi2ayyD962jfp7vGsrKGMq/b1nbVlZUQNWmqNpaysoAjEteNiANKyspgSxz1kyk6HT41lZQAtxAKd24CnkBa/5uZ9dKiWUAggC/l/WsrKYEphuLs2vTj8a1kw2l7/AArKykAKEqZWtWVlAHoIrzyrKygDwPVh2JvU8JAcGRfOzD1PH199ZWUwLlBvvFILRSupHFe+pHu0+Nezbfm1vNLa1/bbh76yspAVnaO3UYnvM59Sfe1KpdpltBoPj76ysoBEQxFSLiK9rKAN1xZqX63WVlAH/9k=" alt="Punching Press" class="img-fluid mb-3"> 
+                            <h6>Testimonial</h6>
+                            <p>"Transformed our production line!" - Manufacturing Client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vision">Vision Systems</button></h2>
+                    <div id="vision" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>AI-powered visual recognition for sorting, tracking, and quality control using integrated cameras.</p>
+                            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFhUXFxgXGBgYGRgbHRcXGhoXHRgdHRodHyggGh0lHRgYITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGy0lHyYtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAEBQMGAAECB//EAEMQAAEDAgQCBwUDCwMFAQEAAAECAxEABAUSITFBUQYTImFxgZEyobHB0RRCUgcVIzNicoKSsuHwJENzFlOi0vHCY//EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EACwRAAICAQMEAgEDBAMAAAAAAAABAhEDEiExBBNBUSJhgTJxkRRi4fEFobH/2gAMAwEAAhEDEQA/AGOFJ/Qsn/8Amj+kUQ7dJT3nkKgwnELZLDWcuE9WjaE65RxINDvY8wCcraZ5k6+6uecZtfEpGUU9wR5sqkhJMnaOdCnB3gczQid0kwP7VO90mHCPKhHceWqYnyrlh/xyX6nZ0S611SRfSu3Xh6bZ5JLiUkpOnYXKiCFT3/GqijA2wBnek/sgD60mdxNfHTxIFRqulHw8zXfGCSS9HI5tuyxotrNO4UrxP0ip2cQtkeyynzAqutXyAO0gE96vpUa8VSNggRtAn403xQPky2HpJpABHLKKFcxR8kxn03B4VVLnGc0So6bRAjwgUI5iUknUk7kySa2tG0sslxii1HVXvqAXnEyY3iq+bxZ2SfhUlu+rZfHag8hu2P04lGiW07yCdfiY91dKxV0z2gkHcCBPDgKrCm1hRAUQOFGN2MjVajSSmFQGq7smMzkxzJPxNci8bE9ryoNGHo4yfE0S1aNj7opO4P2zr7e33nyou1vJIytnfwrdqyCYSBPcKs1u4y1lSSlClJ7Kuycy5A0JJIgjUQIka0V8zVResJxNxxpCgzwEnMACRvEA6TSvpT1rzDmiUdWoSR2jOxA/mpb0Yvb1poIDaXcy1HNMQOzIgkcyZE+dQYN0jH2m4aXJaUJU2oHMHFESBHDWCdtBHe+l1uDzsUp/DnDu8aFOBp+8tSvOn2ONONEnqlFIMSmCBOwJBMedI3Lt4+y0R4mpKwtG0YOyB7E+JNP+htuhD5yJCZQRp4pqs/6kjTIPOmnRcutXGdagoZVdkeE7+VFP2xaLb0uH+mcHIBXoQaZMLzJKVbxHjIqrY9iqlMuDL7SVDfu4UQ1jS8qTlTIG+tUtApiazcBJiDEe4x86Bu8RQ2rKo68qLtkJSpeXSZUfEkHjULwSFEkCeelUlWkXyBDGU8EqPgK7afdeUENtLKjoNDvIPyqU3SBxSPSpsN6SBgqUhSZOk8R4EaipxqzMHvGrptWVTWUjedPnQ6k3B+8hPv8AlRWJdIesVmUoqJ12PnQCsTmIQs+Rppc7AOzZOH2nj5D+9QOYen7y1nzrF3rp2bPmQKDu33eOUUu4Thu2SVgJHH/7VhS0gxmSDG0jakmHJOUq+8eynx4miE2p+86R5gUGYcF1KdBA8IpfiL4zDUezz7zUTVs3xXPn9KgvbduRoduSuZrBoZ4d0bdU22SSQUJI1jdIrScJSN/A1dcIT/p2f+Jv+gVWwqa4Ov6vJhS0eTs6XBDI3qElwxkPsgDn/m1S2gbOi5nmSYpq4iRrSm5s41Tty+lcUeunkVSdM630sI7pWHtWIBGg0A8zXdzaJUIPrS+zxAp0Oo5cRThpwKEgzXNlnljK2ykFCqSKpeYapB1Jih/s6auDzQIgiRVexTDFA5kHs/CvR6brdfxm9zmzdNW8QIITyFbKxQxYPFRrYYTxr0LXs5CY3CedRqvE1oNpHKt5kjlW2NuEMOBaeR+daaunNgnbvof7UkcaIW7Azp151gNBA679kVIm3cO7keAoVu/UdkE+lSpfeOyAPOldoZUELtCElRdWIB1HDv0pS7cLhxAgZSCCdZnRRk666Hypqb5TbTnWAdoFIWkmW5B1CdlGY8gaqNqFLIE76EnluTJ2irYuCU3vR6tgrbyVNPuKCULyJ0XE9ZAClFJ21AHOac4baOO3usgOEZlp7KiUA6g6/d415FhWJONKSJKmwQSj8QmJj8UbeFeq3GNsttNKaKXHM0rCh9wp48AdfI708nRscHN0jnpdZItHyoLyqUlJKsxlWkKzBROYEg6Kka1WnsSCRKhuTGUHWI4HVO47tdOMep3KkIbz5UFcDLCZJWqAmCdBqR92vLOlFx1L4bCwvqgMysoGZUdqY3ME6nupHi2tmcvAJ+czJytrM67eFFYPdOqfSC2UpIXJPDsKj3xQq8XbmRJ04CpMLxMqfbAQoAqAkjTXT51L8DFhfbCgUnY6GsaRAjhEV3WVrDQoabKXV9omZIHIfSh8RtUrVKp8jpU7mYXB1GUgQO+KGxVoqy9op5xx2+ldK/QRa3IE2TI+6PMmtNhoDZI15Chl2aY1Uo+da+zNAf3NTMHG7QBuKgViKBxqAFkfhrk3bY5eVEx05iI4A+lAPXJUqIIqd7EE8AfStYdbrWc4bWY5JJ19KKRglTC+yhKZAG5Ok8f876kRZO/sDw/+UYza3Z2YI8dPjRKcHvDqQhPiofKhTMAow5zi56Co76wgjtK2+Zpu3gbv37hA7hR777DWVAdcJygqIIAzSZjfTalqQ2xYsCt87DCdszTYnlKUiq7jfRq5s9VDO3+NMkefFJ8dO+nPWFNglQJBFskgjcHqxEd9a6L9Ln3AlD6nskQXAhCv5uztHnXP1GOE1Ui2Gcou4lVbuQaxzWrjjXRWxWCWLkJc3ic4J/dSMydeXpVIu7d5n9Y2sAkhKlJUAqN4JAmvHy9HKDtHpYupjLkGubee486EZuVNq5HnwNF9eK4cSFCtGVKpFZRUt0NLS+SvTZXLn4VOpNVdxCk7ajlxHhzpjY4twXqOfEeNTyYK3gBSrZkWLYTIzN6Hl9Kr5ZM6k1ewQRIMikt7ZB1Sh7KhsQdCO8c66+k6uUfjPghn6dS3jyV/qRzNb6tNaubQoMKmosqa9ZSUlaZ57jTpomzJHKumX0zl4GoAtFZ1w4D3UaMMA+WzABIO0VKm6c4IPnQlu9mEHQjau2rtwyAketK4/QUwtTa1lOdCSkKCoJ3jgfHal1/ZK60DqwltSjkAJUlGc6pE8u+mjTNyrZI8QFGpXbF9Kc7nsp1gpjXh760ZSWxnGLdim1IhUfjTl8IX/ap8UxIhsZfvb93OgcOsirNKgBmQd+Ha+tFXGqyhSdOAj08fGma3s7IZKg4U1fknt+ml5nQet9n2QUpKRpGxGuhpPiGIqUVlSsxVMnvO9WfDMGbTlcW+GeMDKVR4qkJ9DRdy5h6TmJU6s7qUrOdo4mB5VZPbg8/JDS6sUYViSAy2IJUJ2HDX+1GWuIkutw2qM6dSP2hQHRfGWmWVIcQVkLOXwgfOjLrpKNcjOXQ6kd2mtTeLezKe1Ho7eCgic9bOEIHEmvPFdLb0HJKUR90lKTy1kzwrTvSC7V2esRMc1H3xFP20LrZYsdw7I8HEqGSEgg75pOvhFLlWAeISXerAkzA14RwpRaOOlUuqk8OUUZiiCtMAkGf84mqpJREb3C3OjVuPauSfQfM0P9isUe0pSv4p+FK04E4dYWfI/OpB0ePGR4lIobG3GKnrBCUnqpkHXWDBI0lXdW2ukNogym3CvFKfoaWLwYZJU6gHMoBJVGUCCNp0Ob3Gsbw22HtvoB7krX9KKRhq70zQP1bIT5j5AUM/0vf/AAgetDiys0mS8pzTZLRG/epVSNXFskEIbdM75iNfjR3AQr6R3CtifIVyl+6XxVRzVwfuWx7pKqIa+1K9llI8gPjSu/owC3hjytVOKFQXuCqBEle3zNPkYdfq0zISPEfKgcTwK5ChmeROX9rme6kv+4avoteJrjDAZj/TtifFKR868zTmO61HxNehYisP4chlCoUppkayAICCfhVRb6JKHtvN/wDkfpUpRbKRdBnR/pCbbQK7JMqTJhXjCh616bhWLYbetkKQkGO0le/iFT7xrXmDOC2qPbuEz3ZR8TRXW2TI0fJPIE6H+FMe+p9qS4X8juaYw6VdFQ0c9spTzesgJUSgd5iCO/3VU+tIq2D8pbqOwh0lKQAJQkqOn4j8xNIrnpOhaiosBSiZJKU7nuAgeVSl0aluWh1TiBpfBra7JStUpVPMAmpFdJHfushPlUC+kNydikUn9HGO7kV/q5S20htjaXSTo0rvBgA+p0puxhis3WEZCRqCR3cqq4xC5Xu9HrULyXju6o+FZ9P09/q/j/QFkz86S232EtuCFrQO+dqR/wDTtsn27oeQH1NC2GHBZhwveOseelMfzFbjfXxcP1poTw4PjFSf4bEnDLl3k0gdVhYpP61Sh/nIVtT9ilMpQVQpIJOY9khU6ZhrIFDu4W0k6KbjvINRO2jOUy4kEFMBKSQddZMcvfFd0GpK6/k5ZJxdWMEY9ap9i2STzKUz661IOk6wCUW8Dn3eQFKw2z/3Fq/dR9TRttftoiG3FQI1gfKmdrhCqnywlrpVdH2Wmh4ifiahexC6eIDqk5JBIAA28BtXTF/Hs2gPis/KKL/OLq4HUMNo2JSCVeRJOtLJuuUUxRTkqsR2VoQHBG2noR8qLt20mUnXSPI1whhSXilKpCzmIPDgRzO6a7xbCnbVSVEKKFbLyqSCeI1G9c7Xo9rHOMfjJDfCei9s4kqK0JIOoWoz8dR5UW9g1mj/AHGh4J+ZFI2nQtOuxGtWLo70as7kQlqVpjMHHlCZ4pgaihF3y2cvV9J2/nBLT/4U1xTLN2sZ8zLgnMngriI9fWpr1+1OnaVvw4wY98VasQwe0bV1am2kpVmClAKXl/akwYHOgOhOGsuNPNPXIbcYcUg5UIJKfurCjIKSZiRsPCrrfwefOEoJX5EDt0l50rCVydwmNdZ5VI7cBvX7OpJOgzk78wNpq33lrh6To4sykJCnFZUHKEpEFMAmBxPlUQZsUhKTaqWoGVKDitR4Ty5mrLYiVn7Wta+0BAOhAiZ3pksr+4SF8DB4+VQO3KOrypaSkh4kLkZspmEkTqBprHCjLG56txtYjMlSTwPqP7U64FIPzVduGSXD4JVU7PQ24X/tvK8RHxq2DpJcK0SV/wACI+Fb+03a4hu4PLdPxpNTDRXLToJc9pKmgE5syczgBJgA6THCmDX5P3Y/2EfvL+gNHIsr0r7VtII0UpxIM+EzRf5quju2yn950fI1rNQuZ6BgEFdwwkDgAVfSi09F7ZJlV3wjsI+pNEfml7SXrRHmpVSHDkj2rxA/cboMJwLSyRH61zXXWPgKJD9qn2bcnxKvrQy7e3TqblxZ5Rlnz1ro3FindCye9f0ihX0awhWLtp9lhA8QPnSHHcYJcEIQOyOA5qpmcbtE7Mp81E/OkWNdImisQ02BlHAcz3UaYLRWcRwRbVm06H3VqUGxkA0AKJ4a6RSyxwta4K0uQd5ke809V0cu+oZU2t53MhHZSkjKMoI1nyrhnoRfuHtMuR+0tPzVSv8AcdClWAAKPbTH7Sk6e+p2cNt06reaEcM0n0E1Zbb8mzkDOG0n9pz6UY10Nt2/1j1qP4pqb39jL8FL+0WqHkrEFKAZgHt5k69wAnlTUdImCIatSrwBPyp4nBrEPpdDolE6No7KpECR/anP29gaAOHwEfKg4XXx/wCzKVeTz92+cXtaLH8JAoK4S7ubdI8fpNeirvmT/sqPiTUS8QbG1s0P3oPxoqH0g6/tnmi7lwcEJ8EjT3VI0u5XEdYR+ygke4V6IMfUPYSyn91APwFdKxm5WJHXfwtL+gptPql+Davdv8lGbwG8c2buD4oUPiKLtOg16SM9uuOOZxA+dXJNxeq0DN0r+RH9ShWlWV8r/Yj/AJLhCf6c1bS/MmFyXiKFLf5PzxDKf3nT8pqB/wDJ+JCVXTCQtUaBSoAGafd3U8Rg90fbVZI8XnF+7IKhxDBTCCq+YR20jsMkkE6SCVd/Klji0u7b/dmlO1VJfscp6D2YnPfqOuyEAfGaJt+i+FoOrty75p//ACkV2MOYBlWJvkfhQ0ykepQT76IFxh6N3rlf7ywPgBVaRNP7CEWeHJ2tXVeJV/7RQGPPsKR1bbCGRoc2hXpy122qR3GLM6MsZjuStS1aeGakd9jFstROVIMRCJCdOUaE+c0kqSO3pcLnJT3oW4MyW71l1CkkhSiAoGD2VcRPGDw2q7Ywp+8ZUy4UFCvwoJII1BB5iqtc3iWP0zaQhaR2VDUgkRsZHGuMK/KPeqbyqUCoHfKJIO0wI0rQToHW1HLaKvfWbto8W3UkcQSCApPBQ7qjTjTiHEhASYUFJnQSNRMmI0p30kxV+8SA72imSkwBE7iSdj8hVJdcmOOvCpuCUjpx9XKWKvI8xXF1rQpeaDt7wflVYOKvZy4HVJWoZVKQerJGmhKI5DxjWmclM6EcprhrD0uqMQFFJjlm04fId9NCVbMj1cXkSmvQqau1BfWBZzjUE9ok+cz516F0ZvWFNodfDzi9UuJzqAWCTr2Y4Eb15yGTqmO0DB7iN6tuAtyEoIjTfnxqrlR5yTY8fuGereQhgCXszauKETojnEVlu8UlCh91QUPIzzoNbEJd/ZI99SoVKB4d/wBKpF2BotzfTBYEBQ34J/tUT/TN3bMryFIG8LHfUqMLTyqWsNMlvulTi+JkbEn+9Dqx108vjRKcPHKpBZDlW1g0i9eNqAlSyK6ZvXXRmQlxST97YH360S/aJjYVqyvUtJyEgAcT3zsB/mora34DpBC6ok6Kkb610lCj93305av0IzFoKHWCFFUDaFK0HA/Oo7i6amEo9owO0o5frTXIFIWptzyFA4kwcw22+Zo+/uspKUkac5n0FK795RUDmHsjZtUbnjOtLbNSLlafbvs7HVouHgW0ewoJSmEpgEqIHpyrleEYmofqcv8Ay3YA9ETVWX0heabZQlawnqkaBRH3RUr1w+pGcqJ0mCtRP0oOSXLHSb4RaGOjb29w7aIEbBbi/HUgUQnD7RHtXjHghIrzw3CzwA9KwF0/e9ABQco+w0/RfG3bDNm655UaQnRJ74191EKxmyA0ZcV4qIFeeJtFkySr1NTJsTvrS64B0yLsvpLbDa3R/EqfiaiV0tSPZZZHggH5GqibJXAn1oQ2xStKiVZQZIk61u7BG7ci6OdNHhsQnwR/agn+mTxEdYoeYHwNVrEMqyISBHcKmYsRFbvL0btP2NXOlCzusnz+lDL6QrPE+ivpUKbMVv7MKHeD2Tk4w4fxekfE0JcXDrggkxIPDQgyDNM2rQGiU2oHClecZYUJErd4knz+gpvbYclSAVKMkc+NdOtaaVLhrCgkKDYWesymVZcqQASoaGTJ20oKcpcB0RiLnlFq3cIPaJyiPT4TVet+tUpKcrglQE5VQJMTtXpF5b/o1BCuqO4WAk5dZJgiP/tLOmd24wtnWUKTr3rTGvnr6U8latnZ03UK441sLOlL4DQSOOnpQXQ+zzpWrhmA90/MUoxbEy4rKdkie/XerJ0Sxa1Yt4dfbQsqJKSdeAGm/CjNvRsc+eWrOxyjDarmI4EbdxbyFdhe6fwq3kd2/r6WRvpVZFQSH0knbRUfzRA9aFuMetLhOVKirKQqClQnhsRrvXPU2qobFkjjmpPwVK/Wot6yYiP886XMJk6iRykj3jWrtil1bLs3QAhJMZVZADvrB8J9DVDtMRQmEqTMTrA1HDv129KpjxNKi/UdfCc7SGz1g02kdnKT3qM+8inWBWgKc2ecuwEaRzpVe4s3cNstBCkFBQMxIAAKu1HKJ3pEXXEvqKFGAtQB1CVAEgE8wQJ86d4m/JCfWRcajGv2PRRbJIvP2UIUP5SaVMez/nd+z86Fw3FbteZKWEKLiQlas2mUAiZnSBU9oFZBmEHwkctDGomujGcMi1W47KfAfCuyKTMIeKRD4SIEANgkDxJ19K6NovjcOnwDY+Ca5XyVS2JLvEsjraDlyrzakmZHdFM1CDBBBEaEQde6q5cYMhRzKccJG2ZQ0PpVh6QsIXC3AO02hW5GxI5/tj3U6SaFfIFiSEqSUqMA98HeaUOMgj9GRJCkqk5jt2Y1rss2g+615ifjXDzjeVXVKShXAhMAkd8U0QMtnR23Sq2SoJSpfGe8AbSOFT43hSZQptISYMwnQxGh94qkYIy6cwUVDs6GYgiYOp09k1fsH6WpUwyyqStsHPA9og6HvJ38TV5KkRTtiJnEQ2mClZVJ9htHduV7eFLcVxElYhDvs/ibHE8KPxa4WXl/o1DWYIjUjc+UD+EUixNxzMOxGnMczU6Q4cx0ccdbaVKAOrb3J/CO6jrbAHUntPJKYiIP9qgw3pGUtNjq9m0DjwSKJR0kBMZPfUnFPkopNcE35iQPve6PnSbpDcM2wCRKnDqEyIA5nT0povpEkpUQmCkHWZAPeKob5zrUtSiokySdz9PCmx4YyYJZJIIPSB3glA8ifnULuO3HBSR4JHzqIhNCXbyUj4V0dnGvBPuT9jCw6RLQ6kvrKkfeSAkEiDtoOMU4xDHbJSJQ6oKn2VIM+oEV586CTJriRzqOTHCXgeOSSLpdY/bQAkmZE9k/OuP+qmholDh8gPnVMz8qKtEyJpFhiP3ZFnPS0cGj5qA+tdWXSJThUciEIQnOtSlE5UyEiAAMyipQATxnkCRVrypLEEsPpSCVEsmBqSApc6bncUVhj6B3ZFnPSxKtELCDwLrRCT4qQ4oj+Wgr7pHdoIBKAD7KkhKkrHNKtQRt4TrFHWnQ63cR+teSsbhQQY017MDTwNSNdCLlIKUFDjOYZkrJROiZUgahKgSoTPCNRW7cfQO5L2V5fSO4P+6fIJHyq/dGWVu2LSlOrSpanFZgdYC4G4iIT76rOIdBXEuDIlfVEpGclCiBICiUiDzMAEd9XnD8OR9kZtlwShtKHUg7K0KgSO8zPHemaSWxk2+Rs6wlaShQCkqEEESCDvIpX+UmzzWwV/2ykj1yn3Kpu24hAAJgCB6Ui/KHfFTbQYck5ldYhOpUgp4p3jNl9aC3CpaWmjy510JWcx4QfiKXqJcXCRqTpRZwW5V2upc14kR8aW6imXFIEpapamWJspYU24EkoSUkjiYgnfn8agt3VpIU3mn9mZjy7qShdPcEMrSOaVcY2ST8qONNJ3uLOSb2LN0ruevbbbbaWMusRECIA5eXCqw1gr0/qz5lI+JolKVETnX/ADGuQzO6lHxNLGNIzlbJMRwhQRm0kcAR8qSRVjgptlZQT2400ImKUNvgaBCSTzzTPuHuqijYrZNhuLvMp/RrygyNgfLUU6axFCGWzJUVCCDoEqB3BiIIO3NI8u8BsAkgFIJMmCBoZ256RXOJW+ZLqCBMqIHJQJIoRe9BaaVjazbQtIVnc8AqB6Vt62bH3Vq/iUfmPjS7oniCepIXwM6xsfE8wfWmtxfpHADxIqEk0yiew3wjo+0tKXCQmdYj2fMr+FOL60YUlKFvBWVOQDsyRKd9xukcKpQxJWwXpyBURTJp/MxmSoZkkzJSCRrMBZ7R20EmniI5Dq3wO1bAnQa65+O/BIrpxiwHtAK7ipR901RrgklJ134gVa8KfysKBUNJMDUqVw224an30XsBOyKxaaL6gSUoM5eHZCgU6ecedFM4daAgNuLCwYBM68CPZjhxpOi+/SJUtBMgccu+hqxWCwH1JUlJIUuSRmJIymYPPN7qotkK9yDGrZYVn+0EpUAYmCDpKYSNByk8N6rGJk5h+kVt+JXM99Xl9ltaCpwCNjpHEwdKUYpaoCkwkRlHCeJpbNQvw/8AUtf8aP6RUF+0FDkY3FOMLZt1sNQ4ptXVonOMyZyjinUelcXmBu5SpGVxPNCkn1EyPMVKihX7BpOsgawD57+6ari0SSeZJ9atd5aqZQsKjMAomCDBKdNu8iqe/cgA66VfCvIk2cXKkoSST/ekJcU4sQCSSAEgEkk6AADc1u5uesVqSEj/AD1qBJjUE00pCpFi6aYpePOpTepKHGkhIbyBGRMCOyNpEVDg3RV64b6wKbQiYBWYzRuQOXfQrDScqVlOaFSQTorjB5zGtWEdMHAITb2yeAhpJj1FLKNBTshT0FP3rtgep+dMrToYyEgKvEn91H966w7pa8VpDjiWm91FDSJjkABudu6Zp9iOKPOpSuxuHVRqtqe0mZgiN/DWpuSTplFGytX3RW2G9wv0A+IqzYBh1qLcMtvqSoyZSWgrf70pn3g7VQcVv3FrUXFKzz2s0zPfNG4Vh7gH6YZEuaCTCgACQrKfukwAeJp56dOzoC54HOOYHiLQUUu9e3zQMq0jlkHDwJqs2mOvtKjO4IVqnNHHtAgiedPsAvVsPPWqFOlxIXHWOIKC4kSEhIkJB29qdeEU4vvsV6vqnYQ+AmHElOqoBgKBhYBJGU8jFc6yNbPf7Hcb4B8B6RLWYXcspETLiVDWduzJJptfot3gM14whwbKQXJ5RmKQY8688xvAX7VeVYlJ9lY9lQ+R7vjvQ1sFd3rV0090IX5jD2G56x9p6IgtuJC4nUkqkH3U1wn82NgrdeWVKUdAZyo+6JA1VrJjQTHefL13RQdNO+TXYuSqJUjTgM3/ALCtpRtR6+50iwhKcoDihvEr+Yrwe7UMy8ohOZUc8smJ8op6Hk8Vp/kJ+Kqrb51Pia1UZuzinODLh1vlt6giklMLB7KpCuRBpoissKNeztqefCe6tNzI7J8gTXWE9JG7d0PISpSgoKGZKSJE8Jqa/wAdU+tTvUOkrUVEpSQCSZ0gRSO/CJJy7lNbezhSFdQ6kAhUgidNt/hVcbd1njvVqw2ydcSvK2WieK59YjvpU30auAsjqzlBgK7InvgqmKpB1syrXouOCfr0TrKCZ8dahxBMXDg5mfUA0RhGHLaU1mOYJSoKPjMfSt4xaEuKcBGXKOcyB4eFSx0mUnwV7odhzry3mWkKWUiSEzplVoT51aV4Qs+1k/icT81VU+jC1JvXIMHt7d5q4ISJPgPnVe1q3OdzrYnt+jZP37caEn9K3pG/3qX3xS3LZKSQr7sEbDUEbz3VO66gCSpIHGSNqb9Huj9tdtF37WhsghChppoI1KhE6x4VnjSMpWJcPsRctu9XlzNI6w6HUAidSO+nANskDK6TJMgoIIEb+fIcqfIwFi0afeRdJWVMuJ1KRmkeO8ivOrXFW0KOcyBO0EnlApXHYZLcitQS6EuE5dcvCJq2uZg+26gwpUlWgMkATodIjnyqtIxFhwlRSvKIkgDszsd/LlrTOyxMuZQgxkQokq4pAJAjUTw8Yoq3yjbG38WWtSu32SrQAADu0FNMWeAUgQDCACeZkzTHoflK/wBMJhsEANoAmYGoHADz1NBdI1hT0yYjTwzKjas6MrA8KeaLDYOWerRqpJGuUcUk/ChMTDSRPDjlWD8QCKDsT+hb/wCNH9IoXEFaRzNRsrRFjjoTbGNJygc+0rNr/JVFxNfZ86t3SxwBttPNRP8AKkAf1mqZiB0FXh+km+QNI0ohm1nhXLKdKMskyePhSBHlvao6rtJVpEBJgk+EH1qJrBVKGcoUBwE7+7SmVtbkalPDnRSWlRtvrv8A5woSnbDGFCf83z/tR/Gf/WtW9g+2czalIPMKj4GnSEL7q2EL5ip6h9J3hnSLM6lq8DZKRlS+QkLR2d+sPu74qu43ghUFvW7xumwe0rXrExxUk6kftDTwoPGjDiuc6+goayxBbCg40spVzHETqD3aU2mt0C/DI8JGd0A65pmeMg61zcoKFkCRBo7Fr5h/9KlvqnSo50JnIob5+SVTuBvv4rlbenzp07QpbMK6WhVuu3vAXE5ewrcgjaeM99Vlu7ymShKtPvZtP5VD3zQs1M4iYyyezJ025+W2tLGKi9gt2TrxIkRkaH8CT8Z1rTL6wCRAE8EI+k0MlMjzohpfYjjPu0qohMu9cOhcXHIGKTPe0Z3k0wUkHae+gHgZPjSsJHRSQQB3iR/nlQ2Wi1nRH7sf+SqMeTMhUvWrxa4gW7NhQAMjLrP3ZG4PdVGcFWm3M4c2fwuke9X1oS32ZkFf9RODZKB4A/Ws/wCpH43T/KKRg11nHMetFQXo2pjZXSC4P+5HglP0pl0fvnHS4lxZV2dJjSZB28qrNOOi6v0xHNJHwo6UgWwZ+3IfWtDkakAp5bSCDx3867/N8+0rv2GtL3jlURNbHjPGvTxRxtbI55Nj+2wVtWinSPMVYMN6P2CdV3EyNQXGxofLSqKmpkCrPDGQutos/SnDLVGQ2roUDOcBYVB0g6bcR5VX0OKQFAHQ76A7eI0qxdBCj7RCm0L7OzgChqQJg8dRV6VYJPsttIyrjsoSN/L9r3VwdR8JaSkKe55SzfLUpaiZUURppABGunKnmG4wyEgqlSwmNRImRqJ2Vpv3mr43hUbmQF7RwVv/AFH0pQOjLKXVjIDCpE8jr86lFKf0GToW4djqCdU9WhMnMANzzyiT51PiN82opKVEgp3ynXVXdVqcwNhTRbyASDxPHzqiMrS1LLpAW2pSNwJEkg+czWeNAUmasP1Tf7iP6RUF5qpI76mw/wDUt/uI/pFDnV7wrhOsQdMXf0qU8EonzUpR+GWqtenSm/SJ7Ncu8gQn+QBPypLdnSupfpJeTLc6U0wYnMSN4pW0YFFWL8BRkCI0O5PdSJWMWi3eJ1UdthyNbvrzIgq3ikNtfnOkSTJApjeXCZCFDfnxillGmMnaBxjao2Hv+tRrxhfd6VO4Wk/cB8hQ7TyAkAtgnn2a1L0DcAffJJJ4nlQ7sxXSz76jdOlMwHDZqVw7eFQtAzR6GAUyZnkP80oGO1O5bcJGhWvMdN0pEDXlJ91CM3akE5eKSkzyNd3jhVqdIASByA2H+cSa7bbAE6aiPhWZqBWRU4NYpEEVzNMmK0SpVvQC160XwoNzehY1Eq3JQByNdqUMiBxGafM6f531ANqxFGPIGTOpzRGm3zqxYQmcPdH4XQfXJ9arql6AQNJ15yeNWjog2HGX2iYBKTPL/MtaW25kQ4HdBl9p4oDgbUFZCYCo4TBj0q7r/Kk4gnqrVpEmdSoxoBvoeFI0dG2+Liv/AB+lSJ6OscVLPmn6UFkSM4gKukaJkWNl/E2tUnn2l60Hgbv+oSYAzFWg0AkHYcB3U/T0ft+Sj/EflUzGEMoIUlogjUHMr6xRlksyiVTFGodWOSle8k/OhG6dY28EvrGRJ234ykGgRiCQfYQPKqdNk7cre4uRWiJFTJqdvGo4I/lH0qdvH/3fCK9FdZ/azneL7GnQ05bls6a5kxrPsyDyiQK9Tajlx1+ted2HTltpSctohtQgZkttgifHhVkV00dPFQnkEfSuDqpznlUuFXH+SsIxUa8jbEsbbabKxCzpprtxJMcBNAO4gXF5xlEgbSao+J9a6FydCVHUgnedYA+FdWN84Ep7WwHGurBjx+yGSUvRfmL5W2RRPdxpZjallYPUn2RuO891IRjziCP0h8iTQmJdJVqUCVrPZ5nmaeeOP0LGTOrK4SGW9RohP9IqKwdSVFekd54SJ91ZWV41HolAuX86lK/Eoq9TNB3NZWV0eCZsbCumUSYjXxrdZSIYZW1mJBnbXemagD+HTjWVlLKTYUiG7fSgakTyA4UGbpOX2yO4J+ZNarKaPAGLXajc2rKyswG7ZcGjsxyzz1HeNR8fhWqygEFck1tatAR/nlwrKyg0EmBkVGRzrVZTxQsjZX30M6jWaysoMZHEVK2jsk67gd2x+lZWVo8gZ2oaDz+VWfoIrV4TGiT/AFVuspp8AjyWcKH/AHPhXIWJ9s+vCsrK5ihO0kE+0fWu3G0gHte8VlZRAVXpKR10jWUJPxHypMtidZ7o41lZXbixxSUiUpN7HYslTGUzR+HYQpTiQtJCJknuHDz286ysqin3IParQklpkOMcw3rIW2O2IHKRw3jasGLtpOUkyNxFZWVzQw9uChbdex5S1Owr86IAzZVkRMhMwDz10oG6xhhQVlQqTJE5dCRvvWVlGEmuBJoDYvVIgqCSmeSfpQt9ii1KkEAcBlToJMcKysqym3ywaUf/2Q==" alt="Punching Press" class="img-fluid mb-3"> 
+                            <h6>Case Study</h6>
+                            <p>Improved accuracy by 25% in assembly lines.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tools">Machine Tools Integration</button></h2>
+                    <div id="tools" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Seamless loading/unloading with collaborative Borunte robots for CNC machines.</p>
+                            <video src="./stamping_video.mp4" controls class="img-fluid mb-3" style="max-height: 300px;"></video> 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#punching">Punching Press Automation</button></h2>
+                    <div id="punching" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>High-speed stamping for metal sheets using specialized Borunte robots.</p>
+                            <video src="./stamping_video.mp4" controls class="img-fluid mb-3" style="max-height: 300px;"></video> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="mantronix BORUNTE 4.pdf" class="btn btn-primary" download>Download PDF Catalog of Borunte</a> <!-- Upload PDF to Drive -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products (#products) -->
+    <section id="products" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">ZFENG Products</h2>
+            <p class="text-center lead mb-5">Energy-efficient inverters, servo drives, and motors for intelligent factories. (Applied in metallurgy, mining, ceramics.)</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card text-center">
+                        <img src="https://cache-h.wbxcx.net/comdata/81109/product/202203041047598BE9376CF70DDFE5_s.png" class="card-img-top" alt="ZFENG Inverter">
+                        <div class="card-body">
+                            <h5>ZFENG Inverter</h5>
+                            <p>High-efficiency drive for digitized processes. Specs: 380V, 0.75-500kW.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card text-center">
+                        <img src="https://cache-h.wbxcx.net/comdata/81109/product/20220304111905E2F9A6C6AC666124_s.png" class="card-img-top" alt="ZFENG Servo Drive">
+                        <div class="card-body">
+                            <h5>ZFENG Servo Drive</h5>
+                            <p>Precise control for automation. Power range: Up to 400kW.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card text-center">
+                        <img src="https://press.zf.com/press/media/press_media/2019_3/img/releases_6/global_3/2019_07_16_zf_2speed_ed/2019-07-16_PI_ZF_2speed-ED_04.jpg" class="card-img-top" alt="ZFENG Motor">
+                        <div class="card-body">
+                            <h5>ZFENG Motor</h5>
+                            <p>Energy-saving AC motors for industrial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="zfeng-catalog.pdf" class="btn btn-primary" download>Download PDF Catalog</a> <!-- Upload PDF to Drive -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnerships (#partnerships) -->
+    <section id="partnerships" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Partnerships</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h3>Borunte Robots</h3>
+                    <p>18+ years of expertise. Products: 6-axis for welding/polishing, stamping robots for punching press. Benefits: Custom solutions, no middlemen pricing.</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKkvGVD-Z02-WuCgxA-6KHuXOhdBjyAt4R3A&s" alt="Borunte Robot" class="img-fluid"> <!-- From Borunte link -->
+                    <a href="https://www.borunte.com" class="btn btn-primary mt-2" target="_blank">Visit Borunte</a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h3>ZFENG</h3>
+                    <p>Guangdong Zhufeng Electric Co., Ltd. - Energy solutions for smart factories and mines.</p>
+                    <img src="data:image/png;base64,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" alt="ZFENG Logo" class="img-fluid"> <!-- From ZFENG link -->
+                    <a href="https://www.zfeng.com" class="btn btn-primary mt-2" target="_blank">Visit ZFENG</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us (#contact) -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Inquiry</button>
+                    </form>
+                    <div class="mt-4">
+                        <p><i class="fas fa-map-marker-alt me-2"></i> A-88, Chander Nagar, Ghaziabad UP</p>
+                        <p><i class="fas fa-phone me-2"></i> +91 8178075592 | <i class="fas fa-envelope me-2"></i> infosupport@mantronixsolutions.com</p>
+                        <p><i class="fas fa-globe me-2"></i> www.mantronixsolutions.com</p>
+                        <img src="business-card-placeholder.jpeg" alt="Contact Card" class="img-fluid mt-3 certificate-img"> <!-- Uploaded business card -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="map">
+                        <!-- Replace with your Google Maps embed -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.123456789!2d77.456789!3d28.654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDAzJzE1LjIiTiA3N8KwMjcnMjQuNSJF!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications (#certifications) -->
+    <section id="certifications" class="section">
+        <div class="container text-center">
+            <h2 class="mb-5">Our Certifications</h2>
+            <img src="WhatsApp Image 2025-10-26 at 6.21.37 PM.jpeg" alt="ZFENG Distributor Certificate" class="img-fluid certificate-img mx-auto d-block" style="max-width: 600px;">
+            <p class="mt-3 lead">Authorized Distributor Certificate from ZFENG (Guangdong Zhufeng Electric Co., Ltd.) - Valid from 2025/9/25. Covering energy efficiency products for mines and factories.</p>
+        </div>
+    </section>
+
+    <!-- Blog (#blog)
+    <section id="blog" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Blog & Insights</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <article class="card">
+                        <div class="card-body">
+                            <h5>The Future of Robotic Welding</h5>
+                            <p>Explore how Borunte robots are revolutionizing manufacturing with AI integration.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <article class="card">
+                        <div class="card-body">
+                            <h5>Energy Efficiency in Smart Factories</h5>
+                            <p>Discover ZFENG's latest solutions for sustainable automation.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- Add more as needed -->
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Newsletter Signup -->
+    <section class="py-5 bg-secondary text-white text-center">
+        <div class="container">
+            <h3>Stay Updated</h3>
+            <p>Subscribe for industry news, updates, and promotions.</p>
+            <form id="newsletter" class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email" required>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 Mantronix Solutions. All rights reserved. | <a href="#" class="text-white">Privacy Policy</a></p>
+            <div class="social-links">
+                <a href="https://twitter.com/mantronix" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/company/mantronix" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                <a href="https://facebook.com/mantronix" class="text-white"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Newsletter form handler (replace with Mailchimp/EmailJS)
+        document.getElementById('newsletter').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Subscribed! Thank you.');
+        });
+        // Contact form handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert("Inquiry sent! We'll respond soon.");
+            // Integrate with Formspree/EmailJS for real submissions
+        });
+    </script>
+</body>
+</html>
